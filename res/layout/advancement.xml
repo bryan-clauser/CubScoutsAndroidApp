@@ -10,7 +10,16 @@
     			  android:orientation="vertical" 
     			  android:layout_width="fill_parent" 
     			  android:layout_margin="@dimen/Fivedip">
-    			  
+
+        <Button 
+        	android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content" 
+       		android:text="@string/bobcat"
+       		android:textSize="@dimen/TwentyFivedip"
+       		android:height="@dimen/SeventyFivedip"
+       		android:id="@+id/bobcats" 
+     	>
+        </Button>    			  
         <Button 
         	android:layout_width="fill_parent" 
         	android:layout_height="wrap_content" 
