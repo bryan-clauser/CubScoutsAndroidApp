@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@color/Blue"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <LinearLayout android:layout_height="fill_parent" 
+    			  android:id="@+id/homeLayout" 
+    			  android:orientation="vertical" 
+    			  android:layout_width="fill_parent" 
+    			  android:layout_margin="@dimen/Fivedip">
+    			  
+        <Button 
+        	android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content" 
+       		android:text="Calendar" 
+       		android:textSize="@dimen/TwentyFivedip"
+       		android:height="@dimen/SeventyFivedip"
+       		android:id="@+id/calendar" 
+     	>
+        </Button>
+        <Button 
+        	android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content" 
+        	android:text="@string/advancement"
+        	android:textSize="@dimen/TwentyFivedip"
+        	android:height="@dimen/SeventyFivedip" 
+        	android:id="@+id/advancement" 
+        >
+        </Button>
+        <Button 
+        	android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content" 
+        	android:text="@string/academics_sports" 
+        	android:textSize="@dimen/TwentyFivedip"
+        	android:height="@dimen/SeventyFivedip"
+        	android:id="@+id/academics_sports" 
+        >
+        </Button>
+        
+    </LinearLayout>
+
+</LinearLayout>

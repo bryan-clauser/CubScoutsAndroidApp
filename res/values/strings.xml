@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Is Git Working?</string>
-    <string name="app_name">Pack30AndroidApp</string>
+    <string name="app_name">Cub Scouts</string>
+    <string name="calendar">Calendar</string>
+    <string name="advancement">Advancement</string>
+    <string name="academics_sports">Academics / Sports</string>
+    <color name="Blue">#005E9A</color>
+    <color name="Gold">#FFD401</color>
+    
+    <string name="tiger">Tiger</string>
+    <string name="wolf">Wolf</string>
+    <string name="bear">Bear</string>
+    <string name="weblos">Weblos</string>
 </resources>
