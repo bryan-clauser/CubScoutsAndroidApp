@@ -10,7 +10,7 @@ public class CalendarActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
         setContentView(R.layout.calendar);
-        
+        System.out.println("CalendarActivity creted.");
         //View homeLayout = findViewById(R.id.homeLayout);
         //homeLayout.setBackgroundColor(findViewById(R.color.Blue));
 	}

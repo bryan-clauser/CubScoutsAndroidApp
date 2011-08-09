@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Cub Scouts</string>
-    <string name="calendar">Calendar</string>
-    <string name="advancement">Advancement</string>
-    <string name="academics_sports">Academics / Sports</string>
     <color name="Blue">#005E9A</color>
     <color name="Gold">#FFD401</color>
     
-    <string name="tiger">Tiger</string>
-    <string name="wolf">Wolf</string>
-    <string name="bear">Bear</string>
-    <string name="weblos">Weblos</string>
-    <string name="bobcat">Bobcat</string>
+    <string-array name="ranks_array">
+    	<item>Bobcat</item>
+    	<item>Tiger</item>
+    	<item>Wolf</item>
+    	<item>Bear</item>
+    	<item>Weblos</item>
+    </string-array>
+    
+    <string-array name="main_array">
+    	<item>Calendar</item>
+    	<item>Advancement</item>
+    	<item>Academics / Sports</item>
+    </string-array>
+    
 </resources>
