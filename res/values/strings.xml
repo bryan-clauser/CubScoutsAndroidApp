@@ -1,21 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Cub Scouts</string>
-    <color name="Blue">#005E9A</color>
-    <color name="Gold">#FFD401</color>
-    
-    <string-array name="ranks_array">
-    	<item>Bobcat</item>
-    	<item>Tiger</item>
-    	<item>Wolf</item>
-    	<item>Bear</item>
-    	<item>Weblos</item>
-    </string-array>
-    
-    <string-array name="main_array">
-    	<item>Calendar</item>
-    	<item>Advancement</item>
-    	<item>Academics / Sports</item>
-    </string-array>
-    
+	<string name="app_name">Cub Scouts</string>
+	<color name="Blue">#005E9A</color>
+	<color name="Gold">#FFD401</color>
+
+	<string-array name="ranks_array">
+		<item>Bobcat</item>
+		<item>Tiger</item>
+		<item>Wolf</item>
+		<item>Bear</item>
+		<item>Weblos</item>
+	</string-array>
+
+	<string-array name="main_array">
+		<item>Calendar</item>
+		<item>Advancement</item>
+		<item>Academics / Sports</item>
+	</string-array>
+	<string-array name="academics_sports_array">
+		<item>Academic Activities</item>
+		<item>Sports Activities</item>
+	</string-array>
+	<string-array name="sports_array">
+		<item>Archery</item>
+		<item>BB Gun Shooting</item>
+		<item>Badminton</item>
+		<item>Baseball</item>
+		<item>Basketball</item>
+		<item>Bicycling</item>
+		<item>Bowling</item>
+		<item>Fishing</item>
+		<item>Flag Football</item>
+		<item>Fitness</item>
+		<item>Golf</item>
+		<item>Gymnastics</item>
+		<item>Hiking</item>
+		<item>Hockey</item>
+		<item>Horseback Riding</item>
+		<item>Ice Skating</item>
+		<item>Kickball</item>
+		<item>Marbles</item>
+		<item>Roller Skating</item>
+		<item>Skateboarding</item>
+		<item>Snow Ski and Board Sports</item>
+		<item>Soccer</item>
+		<item>Softball</item>
+		<item>Swimming</item>
+		<item>Table Tennis</item>
+		<item>Tennis</item>
+		<item>Ultimate</item>
+		<item>Volleyball</item>
+	</string-array>
+	<string-array name="academics_array">
+		<item>Art</item>
+		<item>Astronomy</item>
+		<item>Chess</item>
+		<item>Citizenship</item>
+		<item>Collecting</item>
+		<item>Communicating</item>
+		<item>Computers</item>
+		<item>Disabilities Awareness</item>
+		<item>Family Travel</item>
+		<item>Geography</item>
+		<item>Geology</item>
+		<item>Good Manners</item>
+		<item>Heritages</item>
+		<item>Language and Culture</item>
+		<item>Map and Compass</item>
+		<item>Mathematics</item>
+		<item>Music</item>
+		<item>Nutrition</item>
+		<item>Pet Care</item>
+		<item>Photography</item>
+		<item>Reading and Writing</item>
+		<item>Science</item>
+		<item>Video Games</item>
+		<item>Weather</item>
+		<item>Wildlife Conservation</item>
+	</string-array>
+
+
 </resources>

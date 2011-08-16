@@ -30,8 +30,8 @@ public class AcademicsSportsActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.common_listview);
 
-//		model.add(new IconRow("Belt Loops", "Some Belt Loop Stuff"));
-//		model.add(new IconRow("Pins", "Some Pins Loop Stuff"));
+		// model.add(new IconRow("Belt Loops", "Some Belt Loop Stuff"));
+		// model.add(new IconRow("Pins", "Some Pins Loop Stuff"));
 
 		ListView list = (ListView) findViewById(R.id.list);
 
@@ -40,18 +40,16 @@ public class AcademicsSportsActivity extends Activity {
 		// //R.id.textView,
 		// R.layout.row,
 		// names);
-//		IconRowAdapter adapter = new IconRowAdapter();
-//		list.setAdapter(adapter);
-		
-		List<String> names = new ArrayList<String>();
-		names.add("Belt Loops");
-		names.add("Pins");
+		// IconRowAdapter adapter = new IconRowAdapter();
+		// list.setAdapter(adapter);
 
+		String[] names = getResources().getStringArray(
+				R.array.academics_sports_array);
 
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-		android.R.layout.simple_list_item_1,
-		// R.id.textView,
-				//R.layout.row, 
+				android.R.layout.simple_list_item_1,
+				// R.id.textView,
+				// R.layout.row,
 				names);
 
 		list.setAdapter(adapter);
@@ -68,9 +66,9 @@ public class AcademicsSportsActivity extends Activity {
 			Intent myIntent = null;
 			if (0 == position) {
 				myIntent = new Intent(view.getContext(),
-						BeltLoopsActivity.class);
+						AcademicsActivity.class);
 			} else if (1 == position) {
-				myIntent = new Intent(view.getContext(), PinsActivity.class);
+				myIntent = new Intent(view.getContext(), SportsActivity.class);
 			}
 
 			if (null != myIntent) {

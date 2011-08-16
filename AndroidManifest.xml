@@ -16,8 +16,8 @@
         </activity>
         
         <activity android:name=".cubscouts.academicssports.AcademicsSportsActivity"></activity>
-        <activity android:name=".cubscouts.academicssports.BeltLoopsActivity"></activity>
-        <activity android:name=".cubscouts.academicssports.PinsActivity"></activity>
+        <activity android:name=".cubscouts.academicssports.AcademicsActivity"></activity>
+        <activity android:name=".cubscouts.academicssports.SportsActivity"></activity>
         
         <activity android:name=".cubscouts.CalendarActivity"></activity>
 

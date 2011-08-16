@@ -10,18 +10,19 @@ import android.widget.Toast;
 
 import com.bsa.android.R;
 
-public class PinsActivity extends Activity {
+public class AcademicsActivity extends Activity {
 
-	/**
-	 * @see android.app.Activity#onCreate(android.os.Bundle)
-	 */
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.common_listview);
 
-		String[] names = new String[] { "Pin 1", "Pin 2", "Pin 3", "Pin 4",
-				"Pin 5", "Pin 6", "Pin 7", "Pin 8" };
+		String[] names = getResources().getStringArray(R.array.academics_array);
+		//
+		// this.setListAdapter(new ArrayAdapter<Object>(this,
+		// R.layout.common_list_item, R.id.textView,
+		// names));
+
 		ListView list = (ListView) findViewById(R.id.list);
 
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
@@ -31,18 +32,40 @@ public class PinsActivity extends Activity {
 		list.setOnItemClickListener(onListClick);
 	}
 
-	/**
-	 * 
-	 */
 	private AdapterView.OnItemClickListener onListClick = new AdapterView.OnItemClickListener() {
 		public void onItemClick(AdapterView<?> parent, View view, int position,
 				long id) {
+			// super.onListItemClick(l, v, position, id);
 
 			Object o = parent.getItemAtPosition(position);
 			String keyword = o.toString();
 			Toast.makeText(parent.getContext(), "You selected: " + keyword,
 					Toast.LENGTH_LONG).show();
 
+			// Intent myIntent = null;
+			// if (0 == position) {
+			// myIntent = new Intent(view.getContext(),
+			// BeltLoopsActivity.class);
+			// } else if (1 == position) {
+			// myIntent = new Intent(view.getContext(), PinsActivity.class);
+			// }
+			//
+			// if (null != myIntent) {
+			// startActivityForResult(myIntent, 0);
+			// }
 		}
 	};
+
+	// @Override
+	// protected void onListItemClick(ListView l, View v, int position, long id)
+	// {
+	//
+	// super.onListItemClick(l, v, position, id);
+	//
+	// Object o = this.getListAdapter().getItem(position);
+	// String keyword = o.toString();
+	// Toast.makeText(this, "You selected: " + keyword, Toast.LENGTH_LONG)
+	// .show();
+	//
+	// }
 }
