@@ -23,5 +23,8 @@
 
         <activity android:name=".cubscouts.AdvancementActivity"></activity>
 
+		<activity android:name=".cubscouts.wolf.WolfActivity" ></activity>
+ 		<activity android:name=".cubscouts.wolf.WolfAdvancementActivity" ></activity>
+ 		<activity android:name=".cubscouts.wolf.WolfAdvancementActivityDetail" ></activity>
     </application>
 </manifest>

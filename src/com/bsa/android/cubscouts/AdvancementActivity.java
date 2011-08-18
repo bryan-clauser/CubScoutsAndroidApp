@@ -1,6 +1,7 @@
 package com.bsa.android.cubscouts;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.bsa.android.R;
+import com.bsa.android.cubscouts.wolf.WolfActivity;
 
 public class AdvancementActivity extends Activity {
 	@Override
@@ -39,10 +41,19 @@ public class AdvancementActivity extends Activity {
 		public void onItemClick(AdapterView<?> parent, View view, int position,
 				long id) {
 
-			Object o = parent.getItemAtPosition(position);
-			String keyword = o.toString();
-			Toast.makeText(parent.getContext(), "You selected: " + keyword,
-					Toast.LENGTH_LONG).show();
+			if(2 == position)
+			{
+				Intent myIntent = new Intent(view.getContext(),
+						WolfActivity.class);
+				startActivityForResult(myIntent, 0);
+			}
+			else
+			{
+				Object o = parent.getItemAtPosition(position);
+				String keyword = o.toString();
+				Toast.makeText(parent.getContext(), "You selected: " + keyword,
+						Toast.LENGTH_LONG).show();
+			}
 		}
 	};
 

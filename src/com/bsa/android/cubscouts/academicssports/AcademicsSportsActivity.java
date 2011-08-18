@@ -30,27 +30,13 @@ public class AcademicsSportsActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.common_listview);
 
-		// model.add(new IconRow("Belt Loops", "Some Belt Loop Stuff"));
-		// model.add(new IconRow("Pins", "Some Pins Loop Stuff"));
-
 		ListView list = (ListView) findViewById(R.id.list);
-
-		// ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-		// //android.R.layout.simple_list_item_1,
-		// //R.id.textView,
-		// R.layout.row,
-		// names);
-		// IconRowAdapter adapter = new IconRowAdapter();
-		// list.setAdapter(adapter);
 
 		String[] names = getResources().getStringArray(
 				R.array.academics_sports_array);
 
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-				android.R.layout.simple_list_item_1,
-				// R.id.textView,
-				// R.layout.row,
-				names);
+				android.R.layout.simple_list_item_1, names);
 
 		list.setAdapter(adapter);
 		list.setOnItemClickListener(onListClick);

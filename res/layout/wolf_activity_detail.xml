@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+	<RelativeLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="vertical"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent">
+  		
+  		<TextView 
+  			android:id="@+id/wolf_activity_detail_name" 
+  			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10px" 
+			android:layout_marginBottom="5px" />
+		
+		<TextView android:id="@+id/wolf_activity_detail_description"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_below="@id/wolf_activity_detail_name"
+			android:layout_marginLeft="10px" android:layout_marginBottom="5px" />
+			
+		<TextView android:id="@+id/wolf_activity_detail_required"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_below="@id/wolf_activity_detail_description"
+			android:layout_marginLeft="10px" android:layout_marginBottom="5px" />
+
+		<TextView android:id="@+id/wolf_activity_detail_preparation"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_below="@id/wolf_activity_detail_required"
+			android:layout_marginLeft="10px" android:layout_marginBottom="5px" />
+			
+		<TextView android:id="@+id/wolf_activity_detail_note"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_below="@id/wolf_activity_detail_preparation"
+			android:layout_marginLeft="10px" android:layout_marginBottom="5px" />				
+	</RelativeLayout>
+</ScrollView>

@@ -78,6 +78,98 @@
 		<item>Weather</item>
 		<item>Wildlife Conservation</item>
 	</string-array>
-
+	<array name="advancement_electives">
+		<item>Advancement</item>
+		<item>Electives</item>	
+	</array>
+	<array name="wolf_activities">
+		<item>Anti-Gravity Tent Pole</item>
+		<item>Brain Bender - Water Jugs</item>
+		<item>Chinese Numbers</item>
+		<item>Evolution</item>
+		<item>Marshmallow Kick, Throw, and Blow</item>
+		<item>Balloon Artists</item>
+		<item>Balloon Bed</item>
+		<item>Balloon Juggling</item>
+		<item>Balloon Olympics</item>
+		<item>Balloon Symphony</item>
+		<item>Balsawood Airplanes</item>
+		<item>Bomb the Flame</item>
+		<item>Bombs and Shields</item>
+		<item>Bull Riders</item>
+		<item>Candy Grab Bag</item>
+		<item>Chariot Races</item>
+		<item>Copycat Collection</item>
+		<item>Count to 10</item>
+		<item>Count Up Scavenger Hunt</item>
+		<item>Coup Sticks</item>
+		<item>Critter Creations</item>
+		<item>Dark Walkers</item>
+		<item>Everybody Up</item>
+		<item>Feed Me</item>
+		<item>Finding A to Z</item>
+		<item>Get to Know You - Cover Up</item>
+		<item>Get to Know You - Nuts and Bolts</item>
+		<item>Get to Know You - Truth or Lie</item>
+		<item>Going Camping</item>
+		<item>Gold Rush</item>
+		<item>Gotcha</item>
+		<item>Great Investments</item>
+		<item>Group Counting</item>
+		<item>Group Juggling</item>
+		<item>Group Jump Rope</item>
+		<item>Guess a Minute</item>
+		<item>HA!</item>
+		<item>Hand Slap</item>
+		<item>High Low</item>
+		<item>Hole in my Pack</item>
+		<item>Human Rain Storm</item>
+		<item>Human Robot</item>
+		<item>Human Spring</item>
+		<item>Hunting Elephants</item>
+		<item>Imagine That</item>
+		<item>Indoor Miniature Golf</item>
+		<item>Its My Lucky Day</item>
+		<item>Jimmy Jimmy</item>
+		<item>Jumping Bean Relay</item>
+		<item>Keep Away</item>
+		<item>Leaky Water Barrel</item>
+		<item>Licorice Knots</item>
+		<item>Log Convoy</item>
+		<item>Mafia</item>
+		<item>Magnified Movements</item>
+		<item>Mars Rover</item>
+		<item>Medicine Pouches</item>
+		<item>Micro Scavenger Hunt</item>
+		<item>Mixed Up Questions</item>
+		<item>Nano Nature Trail</item>
+		<item>Opposite Actions</item>
+		<item>Paper Shuffle</item>
+		<item>Pass the Bead</item>
+		<item>Passing Race</item>
+		<item>Patrol Staff</item>
+		<item>Point North</item>
+		<item>Police the Site</item>
+		<item>Pooh Sticks</item>
+		<item>Psychic Hand Shake</item>
+		<item>Ring on a String</item>
+		<item>Rock, Paper, Scissors Hike</item>
+		<item>RPS Snake</item>
+		<item>Sand Art</item>
+		<item>Scout Bucks Auction</item>
+		<item>Skin the Snake</item>
+		<item>Soda Pop Detectives</item>
+		<item>Spider Web</item>
+		<item>Spy Stalking</item>
+		<item>Telephone and Bullhorn</item>
+		<item>Telephone Pole Shuffle</item>
+		<item>Three Monkeys</item>
+		<item>Tin Soldiers</item>
+		<item>Touch Stick</item>
+		<item>Trolley Shuffle</item>
+		<item>UnRavel the Group</item>
+		<item>Wacky Animals</item>
+		<item>Who Am I?</item>
+	</array>
 
 </resources>
