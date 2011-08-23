@@ -22,24 +22,37 @@
 
 		<activity android:name=".cubscouts.AdvancementActivity"></activity>
 
-		<activity android:name=".cubscouts.bobcat.BobcatActivity"></activity>
-		
-		<activity android:name=".cubscouts.tiger.TigerActivity"></activity>
-		<activity android:name=".cubscouts.tiger.TigerAchievementsActivity"></activity>
-		<activity android:name=".cubscouts.tiger.TigerElectivesActivity"></activity>
-		
-		<activity android:name=".cubscouts.wolf.WolfActivity"></activity>
-		<activity android:name=".cubscouts.wolf.WolfAchievementsActivity"></activity>
+		<activity android:name=".cubscouts.bobcat.BobcatActivity"
+			android:label="@string/bobcat_label"></activity>
+
+		<activity android:name=".cubscouts.tiger.TigerActivity"
+			android:label="@string/tiger_label"></activity>
+		<activity android:name=".cubscouts.tiger.TigerAchievementsActivity"
+			android:label="@string/tiger_achievements_label"></activity>
+		<activity android:name=".cubscouts.tiger.TigerElectivesActivity"
+			android:label="@string/tiger_electives_label"></activity>
+
+		<activity android:name=".cubscouts.wolf.WolfActivity"
+			android:label="@string/wolf_label"></activity>
+		<activity android:name=".cubscouts.wolf.WolfAchievementsActivity"
+			android:label="@string/wolf_achievements_label"></activity>
 		<activity android:name=".cubscouts.wolf.WolfAchievementActivityDetail"></activity>
-		<activity android:name=".cubscouts.wolf.WolfElectivesActivity"></activity>
+		<activity android:name=".cubscouts.wolf.WolfElectivesActivity"
+			android:label="@string/wolf_electives_label"></activity>
 
-		<activity android:name=".cubscouts.bear.BearActivity"></activity>
-		<activity android:name=".cubscouts.bear.BearAchievementsActivity"></activity>
-		<activity android:name=".cubscouts.bear.BearElectivesActivity"></activity>
+		<activity android:name=".cubscouts.bear.BearActivity"
+			android:label="@string/bear_label"></activity>
+		<activity android:name=".cubscouts.bear.BearAchievementsActivity"
+			android:label="@string/bear_achievements_label"></activity>
+		<activity android:name=".cubscouts.bear.BearElectivesActivity"
+			android:label="@string/bear_electives_label"></activity>
 
-		<activity android:name=".cubscouts.weblos.WeblosActivity"></activity>
-		<activity android:name=".cubscouts.weblos.WeblosAchievementsActivity"></activity>
-		<activity android:name=".cubscouts.weblos.WeblosElectivesActivity"></activity>
+		<activity android:name=".cubscouts.weblos.WeblosActivity"
+			android:label="@string/weblos_label"></activity>
+		<activity android:name=".cubscouts.weblos.WeblosAchievementsActivity"
+			android:label="@string/weblos_achievements_label"></activity>
+		<activity android:name=".cubscouts.weblos.WeblosElectivesActivity"
+			android:label="@string/weblos_electives_label"></activity>
 
 	</application>
 </manifest>

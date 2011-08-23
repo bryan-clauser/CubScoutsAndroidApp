@@ -4,6 +4,23 @@
 	<color name="Blue">#005E9A</color>
 	<color name="Gold">#FFD401</color>
 
+	<string name="bobcat_label">Bobcat</string>
+	<string name="tiger_label">Tiger</string>
+	<string name="tiger_achievements_label">Tiger Achievements</string>
+	<string name="tiger_electives_label">Tiger Electives</string>
+
+	<string name="wolf_label">Wolf</string>
+	<string name="wolf_achievements_label">Wolf Achievements</string>
+	<string name="wolf_electives_label">Wolf Electives</string>
+
+	<string name="bear_label">Bear</string>
+	<string name="bear_achievements_label">Bear Achievements</string>
+	<string name="bear_electives_label">Bear Electives</string>
+
+	<string name="weblos_label">Weblos</string>
+	<string name="weblos_achievements_label">Weblos Achievements</string>
+	<string name="weblos_electives_label">Weblos Electives</string>
+
 	<string-array name="ranks_array">
 		<item>Bobcat</item>
 		<item>Tiger</item>
