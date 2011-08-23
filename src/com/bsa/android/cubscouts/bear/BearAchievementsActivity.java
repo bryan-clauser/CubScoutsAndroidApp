@@ -1,16 +1,16 @@
-package com.bsa.android.cubscouts.wolf;
+package com.bsa.android.cubscouts.bear;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.bsa.android.R;
 
-public class WolfAdvancementActivity extends Activity {
+public class BearAchievementsActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,8 @@ public class WolfAdvancementActivity extends Activity {
 
 		ListView list = (ListView) findViewById(R.id.list);
 
-		String[] names = getResources().getStringArray(R.array.wolf_activities);
+		String[] names = getResources().getStringArray(
+				R.array.bear_achievements);
 
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
 				android.R.layout.simple_list_item_1, names);
@@ -35,10 +36,11 @@ public class WolfAdvancementActivity extends Activity {
 		public void onItemClick(AdapterView<?> parent, View view, int position,
 				long id) {
 
-			Intent intent = new Intent(view.getContext(),
-					WolfAdvancementActivityDetail.class);
-			intent.putExtra("com.bsa.android.cubscouts.wolf.activity", position);
-			startActivity(intent);
+			Object o = parent.getItemAtPosition(position);
+			String keyword = o.toString();
+			Toast.makeText(parent.getContext(), "You selected: " + keyword,
+					Toast.LENGTH_LONG).show();
+
 		}
 	};
 }

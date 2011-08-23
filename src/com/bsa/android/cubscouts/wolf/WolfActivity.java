@@ -20,7 +20,7 @@ public class WolfActivity extends Activity {
 		ListView list = (ListView) findViewById(R.id.list);
 
 		String[] names = getResources().getStringArray(
-				R.array.advancement_electives);
+				R.array.achievements_electives);
 
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
 				android.R.layout.simple_list_item_1, names);
@@ -39,7 +39,7 @@ public class WolfActivity extends Activity {
 			Intent myIntent = null;
 			if (0 == position) {
 				myIntent = new Intent(view.getContext(),
-						WolfAdvancementActivity.class);
+						WolfAchievementsActivity.class);
 			} else if (1 == position) {
 				myIntent = new Intent(view.getContext(),
 						WolfElectivesActivity.class);

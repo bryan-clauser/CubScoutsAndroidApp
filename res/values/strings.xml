@@ -17,10 +17,12 @@
 		<item>Advancement</item>
 		<item>Academics / Sports</item>
 	</string-array>
+
 	<string-array name="academics_sports_array">
 		<item>Academic Activities</item>
 		<item>Sports Activities</item>
 	</string-array>
+
 	<string-array name="sports_array">
 		<item>Archery</item>
 		<item>BB Gun Shooting</item>
@@ -78,11 +80,11 @@
 		<item>Weather</item>
 		<item>Wildlife Conservation</item>
 	</string-array>
-	<array name="advancement_electives">
-		<item>Advancement</item>
-		<item>Electives</item>	
+	<array name="achievements_electives">
+		<item>Achievements</item>
+		<item>Electives</item>
 	</array>
-	<array name="wolf_activities">
+	<array name="wolf_achievements_old">
 		<item>Anti-Gravity Tent Pole</item>
 		<item>Brain Bender - Water Jugs</item>
 		<item>Chinese Numbers</item>
@@ -172,4 +174,142 @@
 		<item>Who Am I?</item>
 	</array>
 
+	<array name="tiger_achievements">
+		<item>Making My Family Special</item>
+		<item>Where I Live</item>
+		<item>Keeping Myself Healthy and Safe</item>
+		<item>How I Tell It</item>
+		<item>Lets Go Outdoors</item>
+	</array>
+
+	<array name="tiger_electives">
+		<item>How Do You Celebrate?</item>
+		<item>Making Decoration</item>
+		<item>Fun and Games</item>
+		<item>Display a Picture</item>
+		<item>Family Mobile</item>
+		<item>Song Time</item>
+		<item>Play Along!</item>
+		<item>Your Religious Leaders</item>
+		<item>A New Friend</item>
+		<item>Helping Hands</item>
+		<item>Helping the Needy</item>
+		<item>A Friendly Greeting</item>
+		<item>Using US pennies, nickels, dimes and quarters, choose the
+			correct coins to make the following amounts</item>
+		<item>Reading Fun</item>
+		<item>Our Colorful World</item>
+		<item>Collecting and Other Hobbies</item>
+		<item>Make a Model</item>
+		<item>Sew a Button</item>
+		<item>Magic Fun</item>
+		<item>Get the Word Out</item>
+		<item>The Show Must Go On</item>
+		<item>Picnic Fun</item>
+		<item>What Kind of Milk?</item>
+		<item>Help in the Kitchen</item>
+		<item>Snack Time</item>
+		<item>Phone Manners</item>
+		<item>Emergency!</item>
+		<item>The adult who is caring for you becomes ill.</item>
+		<item>You are alone with someone who makes you feel uncomfortable.
+		</item>
+		<item>Smoke Detectors</item>
+		<item>Safety in the Sun</item>
+		<item>Plant a Seed</item>
+		<item>Learn About Animals</item>
+		<item>Feed the Birds</item>
+		<item>Cleanup Treasure Hunt</item>
+		<item>Conservation</item>
+		<item>Fun Outdoors</item>
+		<item>See a Performance</item>
+		<item>Take a Bicycle Ride</item>
+		<item>Bicycle Repair</item>
+		<item>Go To Work</item>
+		<item>Fun in the Water</item>
+		<item>Transportation</item>
+		<item>Fun at the Zoo</item>
+		<item>Pet Care</item>
+		<item>Dairy Products</item>
+		<item>Fresh Baking</item>
+		<item>Healthy Teeth and Gums</item>
+		<item>Reduce, Reuse, Recycle</item>
+		<item>Go for a Ride</item>
+		<item>Your Government</item>
+		<item>Banking</item>
+	</array>
+
+	<array name="wolf_achievements">
+		<item>Feats of Skill</item>
+		<item>Your Flag</item>
+		<item>Keep Your Body Healthy</item>
+		<item>Know Your Home and Community</item>
+		<item>Tools for Fixing and Building</item>
+		<item>Start a Collection</item>
+		<item>Your Living World</item>
+		<item>Cooking and Eating</item>
+		<item>Be Safe at Home and on the Street</item>
+		<item>Family Fun</item>
+		<item>Duty to God</item>
+		<item>Making Choices</item>
+	</array>
+	<array name="wolf_electives">
+		<item>It\'s a Secret</item>
+		<item>Be an Actor</item>
+		<item>Make it Yourself</item>
+		<item>Play a Game</item>
+		<item>Spare Time Fun</item>
+		<item>Books, Books, Books</item>
+		<item>Foot Power</item>
+		<item>Machine Power</item>
+		<item>Let\'s Have a Party</item>
+		<item>American Indian Lore</item>
+		<item>Sing-Along</item>
+		<item>Be An Artist</item>
+		<item>Birds</item>
+		<item>Pets</item>
+		<item>Grow Something</item>
+		<item>Family Alert</item>
+		<item>Tie It Right</item>
+		<item>Outdoor Adventure</item>
+		<item>Fishing</item>
+		<item>Sports</item>
+		<item>Computers</item>
+		<item>Say It Right</item>
+		<item>Let\'s Go Camping</item>
+	</array>
+	<array name="bear_achievements">
+		<item>God</item>
+		<item>Country</item>
+		<item>Family</item>
+		<item>Self</item>
+	</array>
+
+	<array name="bear_electives">
+		<item>Space</item>
+		<item>Weather</item>
+		<item>Radio</item>
+		<item>Electricity</item>
+		<item>Boats</item>
+		<item>Aircraft</item>
+		<item>Things That Go</item>
+		<item>Cub Scout Band</item>
+		<item>Art</item>
+		<item>Masks</item>
+		<item>Photography</item>
+		<item>Nature Crafts</item>
+		<item>Magic</item>
+		<item>Landscaping</item>
+		<item>Water and Soil Conservation</item>
+		<item>Farm Animals</item>
+		<item>Repairs</item>
+		<item>Backyard Gym</item>
+		<item>Swimming</item>
+		<item>Sports</item>
+		<item>Sales</item>
+		<item>Collecting Things</item>
+		<item>Maps</item>
+		<item>American Indian Life</item>
+		<item>Let\'s Go Camping</item>
+	</array>
 </resources>

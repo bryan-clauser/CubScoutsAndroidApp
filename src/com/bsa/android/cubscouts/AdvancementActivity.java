@@ -8,9 +8,12 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.bsa.android.R;
+import com.bsa.android.cubscouts.bear.BearActivity;
+import com.bsa.android.cubscouts.bobcat.BobcatActivity;
+import com.bsa.android.cubscouts.tiger.TigerActivity;
+import com.bsa.android.cubscouts.weblos.WeblosActivity;
 import com.bsa.android.cubscouts.wolf.WolfActivity;
 
 public class AdvancementActivity extends Activity {
@@ -40,19 +43,22 @@ public class AdvancementActivity extends Activity {
 	private AdapterView.OnItemClickListener onListClick = new AdapterView.OnItemClickListener() {
 		public void onItemClick(AdapterView<?> parent, View view, int position,
 				long id) {
+			Intent myIntent = null;
 
-			if(2 == position)
-			{
-				Intent myIntent = new Intent(view.getContext(),
-						WolfActivity.class);
-				startActivityForResult(myIntent, 0);
+			if (0 == position) {
+				myIntent = new Intent(view.getContext(), BobcatActivity.class);
+			} else if (1 == position) {
+				myIntent = new Intent(view.getContext(), TigerActivity.class);
+			} else if (2 == position) {
+				myIntent = new Intent(view.getContext(), WolfActivity.class);
+			} else if (3 == position) {
+				myIntent = new Intent(view.getContext(), BearActivity.class);
+			} else if (4 == position) {
+				myIntent = new Intent(view.getContext(), WeblosActivity.class);
 			}
-			else
-			{
-				Object o = parent.getItemAtPosition(position);
-				String keyword = o.toString();
-				Toast.makeText(parent.getContext(), "You selected: " + keyword,
-						Toast.LENGTH_LONG).show();
+
+			if (null != myIntent) {
+				startActivityForResult(myIntent, 0);
 			}
 		}
 	};

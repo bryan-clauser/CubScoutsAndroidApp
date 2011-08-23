@@ -1,17 +1,16 @@
-package com.bsa.android.cubscouts.weblos;
+package com.bsa.android.cubscouts.tiger;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.bsa.android.R;
 
-public class WeblosActivity extends Activity {
-
+public class TigerAchievementsActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +20,7 @@ public class WeblosActivity extends Activity {
 		ListView list = (ListView) findViewById(R.id.list);
 
 		String[] names = getResources().getStringArray(
-				R.array.achievements_electives);
+				R.array.tiger_achievements);
 
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
 				android.R.layout.simple_list_item_1, names);
@@ -37,18 +36,11 @@ public class WeblosActivity extends Activity {
 		public void onItemClick(AdapterView<?> parent, View view, int position,
 				long id) {
 
-			Intent myIntent = null;
-			if (0 == position) {
-				myIntent = new Intent(view.getContext(),
-						WeblosAchievementsActivity.class);
-			} else if (1 == position) {
-				myIntent = new Intent(view.getContext(),
-						WeblosElectivesActivity.class);
-			}
+			Object o = parent.getItemAtPosition(position);
+			String keyword = o.toString();
+			Toast.makeText(parent.getContext(), "You selected: " + keyword,
+					Toast.LENGTH_LONG).show();
 
-			if (null != myIntent) {
-				startActivityForResult(myIntent, 0);
-			}
 		}
 	};
 }

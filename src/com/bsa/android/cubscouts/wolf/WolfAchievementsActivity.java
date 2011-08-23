@@ -1,4 +1,4 @@
-package com.bsa.android.cubscouts.weblos;
+package com.bsa.android.cubscouts.wolf;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,8 +10,7 @@ import android.widget.ListView;
 
 import com.bsa.android.R;
 
-public class WeblosActivity extends Activity {
-
+public class WolfAchievementsActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +19,7 @@ public class WeblosActivity extends Activity {
 
 		ListView list = (ListView) findViewById(R.id.list);
 
-		String[] names = getResources().getStringArray(
-				R.array.achievements_electives);
+		String[] names = getResources().getStringArray(R.array.wolf_achievements);
 
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
 				android.R.layout.simple_list_item_1, names);
@@ -37,18 +35,10 @@ public class WeblosActivity extends Activity {
 		public void onItemClick(AdapterView<?> parent, View view, int position,
 				long id) {
 
-			Intent myIntent = null;
-			if (0 == position) {
-				myIntent = new Intent(view.getContext(),
-						WeblosAchievementsActivity.class);
-			} else if (1 == position) {
-				myIntent = new Intent(view.getContext(),
-						WeblosElectivesActivity.class);
-			}
-
-			if (null != myIntent) {
-				startActivityForResult(myIntent, 0);
-			}
+			Intent intent = new Intent(view.getContext(),
+					WolfAchievementActivityDetail.class);
+			intent.putExtra("com.bsa.android.cubscouts.wolf.activity", position);
+			startActivity(intent);
 		}
 	};
 }

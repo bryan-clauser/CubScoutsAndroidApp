@@ -7,7 +7,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class WolfAdvancementActivityDetail extends Activity {
+public class WolfAchievementActivityDetail extends Activity {
 	private TextView name; 
 	private TextView description;	
 	private TextView required;
